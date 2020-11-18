@@ -15,7 +15,7 @@
 		 Layout ghi theo template cua log4j theo dang %d %-5p %c: gio phut giay ngay thang nam
 		 %m%n: tên file, class, dòng log-->
 	<appender name="logfile" class="org.apache.log4j.FileAppender">
-		<param name="File" value="./logs/NopCommerce.txt" />
+		<param name="File" value="./logs/Search.txt" />
 		<param name="Append" value="false" />
 		<layout class="org.apache.log4j.PatternLayout">
 			<param name="ConversionPattern" value="%d %-5p %c - %m%n" />
@@ -25,7 +25,7 @@
 	<!-- maxFileSize = 10MB, lớn hơn tự cắt bớt
 		maxBackupIndex: cho phép ghi đè 10 lần chạy, nếu để false thì mỗi lần chạy lại sẽ ghi đè hết log mới lên log cũ -->
 	<appender name="file" class="org.apache.log4j.RollingFileAppender">
-		<param name="file" value="./logs/NopCommerce.log" />
+		<param name="file" value="./logs/Search.log" />
 		<param name="append" value="true" />
 		<param name="maxFileSize" value="10MB" />
 		<param name="maxBackupIndex" value="10" />
@@ -43,15 +43,8 @@
 	</appender>
 
 	<!--  Cấu hình những file sẽ log ra theo dạng testng -->
-	<category name="com.wordpress.login">
-		<priority value="all" />
-		<appender-ref ref="console" />
-		<appender-ref ref="logfile" />
-		<appender-ref ref="file" />
-		<appender-ref ref="testng" />
-	</category>
 
-	<category name="com.nopcommerce">
+	<category name="com.amazon.ebay.search">
 		<priority value="all" />
 		<appender-ref ref="console" />
 		<appender-ref ref="logfile" />

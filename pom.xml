@@ -160,7 +160,7 @@
 
 					<!-- Run TestNG xml file -->
 					<suiteXmlFiles>
-						<file>src/test/resources/runNopcommerceTestcase.xml</file>
+						<file>src/test/resources/runAmazonEbayTestcase.xml</file>
 					</suiteXmlFiles>
 
 				</configuration>
