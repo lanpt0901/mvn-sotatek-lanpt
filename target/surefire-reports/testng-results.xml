@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Nopcommerce" duration-ms="13949" started-at="2020-11-18T10:06:24Z" finished-at="2020-11-18T10:06:38Z">
+    <groups>
+    </groups>
+    <test name="Run on firefox" duration-ms="13949" started-at="2020-11-18T10:06:24Z" finished-at="2020-11-18T10:06:38Z">
+      <class name="com.nopcommerce.Register_01_DataTest_In_External_Json_File">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.Register_01_DataTest_In_External_Json_File@2a742aa2]" name="beforeClass" is-config="true" duration-ms="10519" started-at="2020-11-18T17:06:24Z" finished-at="2020-11-18T17:06:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TC_01_Register_Success()[pri:0, instance:com.nopcommerce.Register_01_DataTest_In_External_Json_File@2a742aa2]" name="TC_01_Register_Success" duration-ms="3418" started-at="2020-11-18T17:06:35Z" finished-at="2020-11-18T17:06:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Register_Success -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.nopcommerce.Register_01_DataTest_In_External_Json_File@2a742aa2]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-11-18T17:06:38Z" finished-at="2020-11-18T17:06:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.nopcommerce.Register_01_DataTest_In_External_Json_File -->
+    </test> <!-- Run on firefox -->
+  </suite> <!-- Nopcommerce -->
+</testng-results>

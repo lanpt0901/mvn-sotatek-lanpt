@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Nopcommerce]" parallel="classes">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="url" value="https://demo.nopcommerce.com"/>
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="reportConfig.ExtentReportv4Listener"/>
+  </listeners>
+  <test name="Run on firefox">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://demo.nopcommerce.com"/>
+    <classes>
+      <class name="com.nopcommerce.Register_01_DataTest_In_External_Json_File"/>
+    </classes>
+  </test> <!-- Run on firefox -->
+</suite> <!-- Failed suite [Nopcommerce] -->

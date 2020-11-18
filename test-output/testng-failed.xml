@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon Ebay]" parallel="classes">
+  <parameter name="amazonUrl" value="https://www.amazon.com/"/>
+  <parameter name="ebayUrl" value="https://www.ebay.com/"/>
+  <parameter name="keySearch" value="iPhone 11"/>
+  <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="reportConfig.ExtentReportv4Listener"/>
+  </listeners>
+  <test name="Run on Firefox">
+    <parameter name="amazonUrl" value="https://www.amazon.com/"/>
+    <parameter name="ebayUrl" value="https://www.ebay.com/"/>
+    <parameter name="keySearch" value="iPhone 11"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.amazon.ebay.search.Search_01_Sort"/>
+    </classes>
+  </test> <!-- Run on Firefox -->
+  <test name="Run on Firefox(failed)" parallel="classes">
+    <parameter name="amazonUrl" value="https://www.amazon.com/"/>
+    <parameter name="ebayUrl" value="https://www.ebay.com/"/>
+    <parameter name="keySearch" value="iPhone 11"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.amazon.ebay.search.Search_01_Sort">
+        <methods>
+          <include name="TC_01_eBay_Search"/>
+          <include name="beforeClass"/>
+          <include name="TC_02_Amazon_Search"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.amazon.ebay.search.Search_01_Sort -->
+    </classes>
+  </test> <!-- Run on Firefox(failed) -->
+</suite> <!-- Failed suite [Amazon Ebay] -->

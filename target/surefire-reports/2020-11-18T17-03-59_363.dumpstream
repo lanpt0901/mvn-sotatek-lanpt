@@ -1,0 +1,4 @@
+# Created at 2020-11-18T17:04:00.228
+Boot Manifest-JAR contains absolute paths in classpath 'E:\AUTOMATION_TEST\AUTOMATION-LEARNING\04-Maven automation framework\mvn-sotatek-lanpt\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

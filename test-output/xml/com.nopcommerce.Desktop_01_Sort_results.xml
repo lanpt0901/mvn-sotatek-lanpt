@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Firefox"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.579">
+  <properties />
+  
+  
+            <testcase name="TC_02_Sort_Price" time="2.350" classname="com.nopcommerce.Desktop_01_Sort" />
+                <testcase name="TC_03_Sort_Position" time="0.001" classname="com.nopcommerce.Desktop_01_Sort" />
+                <testcase name="TC_01_Sort_Name" time="3.227" classname="com.nopcommerce.Desktop_01_Sort" />
+                <testcase name="TC_04_Sort_CreatedOn" time="0.001" classname="com.nopcommerce.Desktop_01_Sort" />
+      
+</testsuite>

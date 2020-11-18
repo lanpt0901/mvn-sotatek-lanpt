@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Amazon Ebay" parallel="classes">
+ 
+ <listeners>
+  	<listener class-name="commons.MethodListener" />
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> 
+    <!-- Exntent report v4 -->
+    <listener class-name="reportConfig.ExtentReportv4Listener"/>
+    
+  </listeners>
+ 
+   <!-- <test name="Run on chrome">
+  	<parameter name="browser" value="chrome"></parameter>
+  	<parameter name="url" value="https://demo.nopcommerce.com"></parameter>
+    <classes>
+      <class name="com.nopcommerce.Register_01_DataTest_In_Class" />
+    </classes>
+  </test>   -->
+  
+  <!--  <test name="Run on firefox">
+  	<parameter name="browser" value="firefox"></parameter>
+  	<parameter name="url" value="https://demo.nopcommerce.com"></parameter>
+    <classes>
+      <class name="com.nopcommerce.Register_01_DataTest_In_External_Json_File" />
+    </classes>
+  </test>  -->
+  
+<!--   <test name="Run on Coccoc">
+  	<parameter name="browser" value="coccoc"></parameter>
+  	<parameter name="url" value="https://demo.nopcommerce.com/desktops"></parameter>
+    <classes>
+      <class name="com.nopcommerce.Desktop_01_Sort" />
+    </classes>
+  </test>   -->
+  
+   <test name="Run on Firefox">
+  	<parameter name="browser" value="firefox"></parameter>
+  	<parameter name="amazonUrl" value="https://www.amazon.com/"></parameter>
+  	<parameter name="ebayUrl" value="https://www.ebay.com/"></parameter>
+  	<parameter name="keySearch" value="iPhone 11"></parameter>
+    <classes>
+      <class name="com.amazon.ebay.search.Search_01_Sort" />
+    </classes>
+  </test> 
+  <!-- 
+   <test name="Run on Internet Explorer">
+  	<parameter name="browser" value="ie"></parameter>
+  	<parameter name="url" value="https://demo.nopcommerce.com/desktops"></parameter>
+    <classes>
+       <class name="com.nopcommerce.Desktop_01_Sort" /> 
+    </classes>
+  </test>  -->
+  
+</suite>
