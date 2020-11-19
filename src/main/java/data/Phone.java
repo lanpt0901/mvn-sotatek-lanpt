@@ -5,7 +5,7 @@ public class Phone {
 	private String name;
 	private Integer wholePrice;
 	private Integer fractionPrice;
-	private String priceUnit;
+	private String originPrice;
 	private String link;
 
 	public Phone() {
@@ -52,12 +52,12 @@ public class Phone {
 		this.fractionPrice = fractionPrice;
 	}
 
-	public String getPriceUnit() {
-		return priceUnit;
+	public String getOriginPrice() {
+		return originPrice;
 	}
 
-	public void setPriceUnit(String priceUnit) {
-		this.priceUnit = priceUnit;
+	public void setOriginPrice(String originPrice) {
+		this.originPrice = originPrice;
 	}
 
 	public String getLink() {
@@ -66,6 +66,11 @@ public class Phone {
 
 	public void setLink(String link) {
 		this.link = link;
+	}
+	
+	public String toString() {
+		return "Website name: " + website + "\n" + "Phone name: " + name + "\n" 
+				+ "link: " + link + "\n" + "full price: " + originPrice + "\n";
 	}
 
 }

@@ -26,7 +26,7 @@
 		maxBackupIndex: cho phép ghi đè 10 lần chạy, nếu để false thì mỗi lần chạy lại sẽ ghi đè hết log mới lên log cũ -->
 	<appender name="file" class="org.apache.log4j.RollingFileAppender">
 		<param name="file" value="./logs/Search.log" />
-		<param name="append" value="true" />
+		<param name="append" value="false" />
 		<param name="maxFileSize" value="10MB" />
 		<param name="maxBackupIndex" value="10" />
 		<layout class="org.apache.log4j.PatternLayout">

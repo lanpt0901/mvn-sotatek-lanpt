@@ -10,6 +10,12 @@ public class SearchPageUI {
 	//span[contains(text(),'OnePlus 8 Pro')]/parent::a
 	//span[contains(text(),'OnePlus 8 Pro')]/ancestor::div[@class='a-section a-spacing-medium']//span[@class='a-price-fraction']
 	public static final String LINK_ITEM = "//span[contains(text(),'%s')]/parent::a";
+	public static final String PRICE_ITEM= "//span[contains(text(),'%s')]/ancestor::div[@class='a-section a-spacing-medium']//span[@class='a-price']";
 	public static final String PRICE_WHOLE_ITEM = "//span[contains(text(),'%s')]/ancestor::div[@class='a-section a-spacing-medium']//span[@class='a-price-whole']";
 	public static final String PRICE_FRACTION_ITEM = "//span[contains(text(),'%s')]/ancestor::div[@class='a-section a-spacing-medium']//span[@class='a-price-fraction']";
+
+	public static final String LINK_ITEM_SPECIAL = "//span[contains(text(),'%s') and contains(text(),'%s'))]/parent::a";
+	public static final String PRICE_ITEM_SPECIAL= "//span[contains(text(),'%s') and contains(text(),'%s')]/ancestor::div[@class='a-section a-spacing-medium']//span[@class='a-price']";
+	public static final String PRICE_WHOLE_ITEM_SPECIAL = "//span[contains(text(),'%s') and contains(text(),'%s')]/ancestor::div[@class='a-section a-spacing-medium']//span[@class='a-price-whole']";
+	public static final String PRICE_FRACTION_ITEM_SPECIAL = "//span[contains(text(),'%s') and contains(text(),'%s')]/ancestor::div[@class='a-section a-spacing-medium']//span[@class='a-price-fraction']";
 }

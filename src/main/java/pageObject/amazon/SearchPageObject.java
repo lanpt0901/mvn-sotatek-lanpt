@@ -4,10 +4,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import org.apache.commons.logging.Log;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import commons.AbstractPage;
+import commons.GlobalConstants;
 import data.Phone;
 import pageUI.amazon.SearchPageUI;
 
@@ -32,31 +35,74 @@ public class SearchPageObject extends AbstractPage{
 		openUrl(driver, url);
 	}
 
-	public List<Phone> getAllItemInPage() {
+	public List<Phone> getAllItemInPage(Log log) {
 		ArrayList<Phone> dataArrayList = new ArrayList<Phone>();
+		
 		//Lay tat ca cac element name can kiem tra sort
 		List<WebElement> elementList = findElementsByXpath(driver, SearchPageUI.NAME_ITEM);
 		System.out.println("================== DỮ LIỆU TRÊN GIAO DIỆN AMAZON ==========");
-		//Lay text cua tung element add vao ArrayList
+		
 		for (WebElement webElement : elementList) {
+			String price = null;
+			WebElement link = null;
+			WebElement wholePrice=null;
+			WebElement fractionPrice=null;
+			
 			String name = webElement.getText();
-			System.out.println("==========name =========" + name);
 			Phone aPhone = new Phone();
 			aPhone.setName(name);
+
+			System.out.println("==========name: ===========" + name);
+
+			overrideGlobalTimeout(driver, GlobalConstants.SHORT_TIMEOUT);
 			
-			WebElement link = findElementByXpath(driver, SearchPageUI.LINK_ITEM, name);
-			WebElement wholePrice = findElementByXpath(driver, SearchPageUI.PRICE_WHOLE_ITEM, name);
-			WebElement fractionPrice = findElementByXpath(driver, SearchPageUI.PRICE_FRACTION_ITEM, name);
-			System.out.println("==========wholePrice =========" + wholePrice.getText());
-			aPhone.setWholePrice(Integer.decode(wholePrice.getText()));
-			aPhone.setFractionPrice(Integer.decode(fractionPrice.getText()));
+			try {
+				link = findElementByXpath(driver, SearchPageUI.LINK_ITEM, name);
+				wholePrice = findElementByXpath(driver, SearchPageUI.PRICE_WHOLE_ITEM, name);
+				fractionPrice = findElementByXpath(driver, SearchPageUI.PRICE_FRACTION_ITEM, name);
+			} catch (NoSuchElementException e) {
+				System.out.println("================Amazon: Name has special character");
+				String innerHTML = webElement.getAttribute("innerHTML");
+				System.out.println("==========innerHTML =========" + innerHTML);
+				
+				if(innerHTML.contains("&nbsp;")) {
+					String[] innerHTMLArray = innerHTML.split("&nbsp;");
+					fractionPrice = findElementByXpath(driver, SearchPageUI.PRICE_FRACTION_ITEM_SPECIAL, innerHTMLArray[0], innerHTMLArray[1]);
+					link = findElementByXpath(driver, SearchPageUI.LINK_ITEM_SPECIAL, innerHTMLArray[0], innerHTMLArray[1]);
+					wholePrice = findElementByXpath(driver, SearchPageUI.PRICE_WHOLE_ITEM_SPECIAL, innerHTMLArray[0], innerHTMLArray[1]);
+				} else {
+					System.out.println("=====================Amazon: Name has special character but not &nbsp; ");
+				}
+			}
+
+			overrideGlobalTimeout(driver, GlobalConstants.LONG_TIMEOUT);
+
+			if(link != null) {
+				aPhone.setLink(link.getAttribute("href"));
+			}
+			
+			try {
+				if(wholePrice != null) {
+					aPhone.setWholePrice(Integer.decode(wholePrice.getText()));
+					price = "$" + wholePrice.getText();
+					System.out.println("==========wholePrice =========" + wholePrice.getText());
+				}
+				
+				if(fractionPrice != null) {
+					aPhone.setFractionPrice(Integer.decode(fractionPrice.getText()));
+					price = price + "." + fractionPrice.getText();
+				}
+				aPhone.setOriginPrice(price);
+			} catch (NumberFormatException e) {
+				e.printStackTrace();
+				log.error("Amazon: Parse price error with Phone name: " + name);
+			}
 			aPhone.setWebsite("Amazon");
-			aPhone.setLink(link.getAttribute("href"));
 			
 			dataArrayList.add(aPhone);
 		}
-		
-		
+
+		System.out.println("==========Amazon data list size====" + dataArrayList.size());
 		return dataArrayList;
 	}
 	

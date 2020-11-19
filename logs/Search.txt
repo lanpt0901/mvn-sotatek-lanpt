@@ -1,2 +1,405 @@
-2020-11-19 06:40:31,009 INFO  com.amazon.ebay.search.Search_01_Sort - OS name = windows 10
-2020-11-19 06:40:31,961 INFO  com.amazon.ebay.search.Search_01_Sort - ---------- QUIT BROWSER SUCCESS ----------
+2020-11-19 17:54:38,476 ERROR com.amazon.ebay.search.Search_01_Sort - EBay: Parse price error with Phone name: Apple iPhone 11 Pro Max 64GB 256GB 512GB Unlocked Smartphone All Colours A2218
+2020-11-19 17:55:06,783 INFO  com.amazon.ebay.search.Search_01_Sort -  -------------------------- FAILED -------------------------- 
+2020-11-19 17:56:22,570 INFO  com.amazon.ebay.search.Search_01_Sort -  -------------------------- FAILED -------------------------- 
+2020-11-19 17:56:22,572 INFO  com.amazon.ebay.search.Search_01_Sort - =================================List phone is sorted==========================================
+2020-11-19 17:56:22,573 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: [Apple MFi Certified] 2 Pack Lightning to 3.5 mm Headphone Jack Adapter,3.5 mm Headphone Stereo Connector Compatible for iPhone 11/11 Pro/XS/XR/X 8 7/6 Plus iPad iPod,Support iOS 13
+link: https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=pa_sp_btf_aps_sr_pg1_1?ie=UTF8&adId=A0960481274EDQ1NHUBUQ&url=%2FCertified-Lightning-Headphone-Connector-Compatible%2Fdp%2FB08KWBM12Z%2Fref%3Dsr_1_20_sspa%3Fdchild%3D1%26keywords%3DiPhone%2B11%26qid%3D1605783309%26sr%3D8-20-spons%26psc%3D1&qualifier=1605783309&id=6282356483739357&widgetName=sp_btf
+full price: $7.99
+
+2020-11-19 17:56:22,573 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: Hiway for iPhone Charger,Lightning Cable Nylon Braided USB 3PACK 6FT Fast Charging High Speed Data Sync Cord Compatible with iPhone 8/8 Plus/7/7 Plus/6/6s/6 plus/6s Plus/ 5s/5c,iPad, iPod and More
+link: https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=pa_sp_btf_aps_sr_pg1_1?ie=UTF8&adId=A078931016SHV6RDS3AK1&url=%2FCharger-Hiway-Lightning-Charging-Compatible%2Fdp%2FB07NXRK6BF%2Fref%3Dsr_1_22_sspa%3Fdchild%3D1%26keywords%3DiPhone%2B11%26qid%3D1605783309%26sr%3D8-22-spons%26psc%3D1&qualifier=1605783309&id=6282356483739357&widgetName=sp_btf
+full price: $9.89
+
+2020-11-19 17:56:22,573 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: Cell Phone Stand-Bamboo Wooden Desktop Tablet Holder-Desktop Stand Holder Cradle for All iOS & Android Smartphone, Tablets, iPad, iPhone X XS Max XR (4-8 inch)
+link: https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=pa_sp_btf_aps_sr_pg1_1?ie=UTF8&adId=A09549152LSB0XOZNVBZ0&url=%2FPhone-Tablet-Stand-InkoTimes-Bamboo%2Fdp%2FB07GGSPV7J%2Fref%3Dsr_1_21_sspa%3Fdchild%3D1%26keywords%3DiPhone%2B11%26qid%3D1605783309%26sr%3D8-21-spons%26psc%3D1&qualifier=1605783309&id=6282356483739357&widgetName=sp_btf
+full price: $11.99
+
+2020-11-19 17:56:22,573 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: iPhone Lightning Cable SHARLLEN iPhone Charger Cable Cord Nylon Braided 5 Pack 6FT Long USB Fast iPhone Charging Cord iPhone Data Cable Wire Compatible iPhone 11/XS/Max/XR/X/8/8P/7/7P/6/iPad (Black)
+link: https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=pa_sp_btf_aps_sr_pg1_1?ie=UTF8&adId=A0249134HD4KG7J9TRFS&url=%2FLightning-SHARLLEN-Charger-Charging-Compatible%2Fdp%2FB08BC8F4BN%2Fref%3Dsr_1_19_sspa%3Fdchild%3D1%26keywords%3DiPhone%2B11%26qid%3D1605783309%26sr%3D8-19-spons%26psc%3D1&qualifier=1605783309&id=6282356483739357&widgetName=sp_btf
+full price: $14.99
+
+2020-11-19 17:56:22,573 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: LifeProof FRĒ SERIES Waterproof Case for iPhone 11 Pro Max - CHALK IT UP (EVERGLADE/CHATEAU GRAY)
+link: https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=pa_sp_mtf_aps_sr_pg1_1?ie=UTF8&adId=A08278292CXFM7J8RM929&url=%2FLifeProof-FR%25C4%2592-Waterproof-Case-iPhone%2Fdp%2FB07VYCBN36%2Fref%3Dsr_1_11_sspa%3Fdchild%3D1%26keywords%3DiPhone%2B11%26qid%3D1605783309%26sr%3D8-11-spons%26psc%3D1&qualifier=1605783309&id=6282356483739357&widgetName=sp_mtf
+full price: $58.23
+
+2020-11-19 17:56:22,574 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: Fonesalesman - FurniQi Smart Qi Wireless Charging Wooden Coffee Table | Compatible with iPhone 11, 11 Pro, Samsung Galaxy S10, S10+, S10e, S9+, S9, Huawei P20 Pro, Google Pixel 4 & More.
+link: https://www.amazon.com/gp/slredirect/picassoRedirect.html/ref=pa_sp_mtf_aps_sr_pg1_1?ie=UTF8&adId=A051165917MKGX8JMDI3G&url=%2FWireless-Charging-compatible-Qi-Enabled-devices%2Fdp%2FB0157191X8%2Fref%3Dsr_1_12_sspa%3Fdchild%3D1%26keywords%3DiPhone%2B11%26qid%3D1605783309%26sr%3D8-12-spons%26psc%3D1&qualifier=1605783309&id=6282356483739357&widgetName=sp_mtf
+full price: $199.99
+
+2020-11-19 17:56:22,574 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 - 64GB - Black (Unlocked) A2111 (CDMA + GSM)
+link: https://www.ebay.com/itm/Apple-iPhone-11-64GB-Black-Unlocked-A2111-CDMA-GSM/324376099299?epid=14034212885&hash=item4b865279e3:g:GJgAAOSwVH1fi-7c
+full price: $442.00
+
+2020-11-19 17:56:22,574 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro - 256GB - Space Gray (AT&T) A2160 (CDMA + GSM)
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-256GB-Space-Gray-AT-T-A2160-CDMA-GSM/154197957022?epid=24034210905&hash=item23e6ea199e:g:W2cAAOSwq69fstA0
+full price: $500.00
+
+2020-11-19 17:56:22,574 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 - 128GB - White (Unlocked) A2221 (CDMA + GSM)
+link: https://www.ebay.com/itm/Apple-iPhone-11-128GB-White-Unlocked-A2221-CDMA-GSM/254777414335?epid=27034209655&hash=item3b51ead2bf:g:JYEAAOSwMSxfrvI0
+full price: $532.12
+
+2020-11-19 17:56:22,574 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro Max - 64GB - Silver (EE) A2218 (CDMA + GSM)
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-Max-64GB-Silver-EE-A2218-CDMA-GSM/303766985461?hash=item46b9ec5af5:g:k7cAAOSw~pRfr~cd
+full price: $545.42
+
+2020-11-19 17:56:22,574 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro Max - 64GB - Gold (Unlocked) A2218 (CDMA + GSM)
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-Max-64GB-Gold-Unlocked-A2218-CDMA-GSM/184534419984?epid=9034209168&hash=item2af71bca10:g:LuUAAOSwBlhfrrPf
+full price: $558.73
+
+2020-11-19 17:56:22,574 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 - 128GB - Black (Unlocked) A2111 (CDMA + GSM)
+link: https://www.ebay.com/itm/Apple-iPhone-11-128GB-Black-Unlocked-A2111-CDMA-GSM/154199472701?epid=13034214281&hash=item23e7013a3d:g:hX4AAOSwkC5ftAL9
+full price: $561.00
+
+2020-11-19 17:56:22,574 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: iPhone 11 64GB 256GB 512GB - Network Unlocked *All Colours Available*
+link: https://www.ebay.com/itm/iPhone-11-64GB-256GB-512GB-Network-Unlocked-All-Colours-Available/193739402389?hash=item2d1bc4ac95:g:pyQAAOSwD4FfpRtJ
+full price: $585.31 to $651.24
+
+2020-11-19 17:56:22,575 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Smartphone 128GB Black T-Mobile - Complete in Excl Condition!
+link: https://www.ebay.com/itm/Apple-iPhone-11-Smartphone-128GB-Black-T-Mobile-Complete-in-Excl-Condition/264918343660?epid=7034220595&hash=item3dae5d1fec:g:vb8AAOSwh-dfnDWn
+full price: $599.95
+
+2020-11-19 17:56:22,575 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 - 64GB 128GB 256GB Black Green Yellow Red White Purple Unlocked
+link: https://www.ebay.com/itm/Apple-iPhone-11-64GB-128GB-256GB-Black-Green-Yellow-Red-White-Purple-Unlocked/174295432899?hash=item2894d13ec3:g:P-YAAOSw-lVfqNef
+full price: $607.28 to $827.05
+
+2020-11-19 17:56:22,575 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 (PRODUCT)RED - 64GB (Unlocked) A2111 (CDMA + GSM)
+link: https://www.ebay.com/itm/Apple-iPhone-11-PRODUCT-RED-64GB-Unlocked-A2111-CDMA-GSM/164478777963?epid=22034217304&hash=item264bb2fa6b:g:obEAAOSwCgleNsl8
+full price: $665.00
+
+2020-11-19 17:56:22,575 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: NEW SEALED Apple iPhone 11 Pro Max - 64GB - Space Gray (Unlocked) A2161 #1
+link: https://www.ebay.com/itm/NEW-SEALED-Apple-iPhone-11-Pro-Max-64GB-Space-Gray-Unlocked-A2161-1/393018196640?epid=8034218247&hash=item5b81b5c2a0:g:-B8AAOSwHflfssuC
+full price: $676.00
+
+2020-11-19 17:56:22,575 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro - 256GB - Space Gray (Unlocked) A2160 (CDMA + GSM)
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-256GB-Space-Gray-Unlocked-A2160-CDMA-GSM/293828983343?epid=13034214288&hash=item4469927a2f:g:cbAAAOSwtkNfrbwL
+full price: $696.00
+
+2020-11-19 17:56:22,575 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 - 64GB - Black (T-Mobile) A2111 Unblocked
+link: https://www.ebay.com/itm/Apple-iPhone-11-64GB-Black-T-Mobile-A2111-Unblocked/193742328140?_trkparms=ispr%3D1&hash=item2d1bf1514c:g:TTcAAOSw3uleNsmC&amdata=enc%3AAQAFAAACYBaobrjLl8XobRIiIML1V4Imu%252Fn%252BzU5L90Z278x5ickkfKe2vUidqHRg3XM2X2xOVCT8FO5uh8dEVWLs4j%252BzOqZI0J6v2rlXoCtb4Uv6j%252Ff09o%252F0d31%252BLfyBdFGxs7fpZCDwG9rFTC6WGcXSmooMO7oKhbRjtDp2uO8L3suKPRQDsfO714622sGKM%252B3%252FaAPVzLGepbtQmXDx3SLSkyWFsyP7QPRbeGeU%252FxZ7QbAmH8DplvH05f4ZPoD4m3EwQ8AWcimOFg2UudnMeyy%252BSolBVByQ7ovs0OGkpl4%252BX0jMnZSvDU1Vr5bLHrKhdEZsws4GvQ2%252F%252Fy9TSi%252BwC0BHPHcFX%252Fht%252F29o4Niae84CYZsMZokOUhYNM%252FjSpi%252BSpxqq8l07Krn2nYWpVtbGTd%252BgfwxF0XQ%252FBxi1EnDgSSLA1mFf6FPLtKHChSHcoDjd0Uo%252FMtTumu8QyURInQZGW3W7NLJl7IrdfIgrTVyl3PqYk66B7VDW5yjW8jya%252F4Sw8XZk3HzWdwokTKaVESGpH4KnKEr%252Fuu8FtdOgGrGxgYNUcpuvlWy6AEwMCMib%252F7LDjfpdbbe4QKjMwNr6kjDf9xhD2s5AeKvk%252FTBZutEBd%252B9oUQ4SzF3lmVN5JEGTpTe%252B41W2%252FaaVUTmBL7nvIRqwukfl%252BUerk6dzKl4qHrUyXWdQYPAAU1pMZZdhXEx3sf9lEtVetH3Z3Qh5SumRnaLRtclf2CN%252BsiXcQPk8HrCbOnRRxOb1vf83XHONu8k4JIxgCbSbrz9ma%252BKrhOAFXOsljzXT89ns3uRosiaqsdznMpBDVp22Pkcd%7Ccksum%3A19374232814040bf11394f374576b7dbf4cb28b9c738%7Campid%3APL_CLK%7Cclp%3A2334524
+full price: $699.99
+
+2020-11-19 17:56:22,575 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 - 128GB - Black, Brand New, Factory Unlocked
+link: https://www.ebay.com/itm/Apple-iPhone-11-128GB-Black-Brand-New-Factory-Unlocked/114524969236?hash=item1aaa385914:g:ztkAAOSw6bVftCfy
+full price: $699.99
+
+2020-11-19 17:56:22,576 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 - 256GB - Black (Unlocked) A2111 (CDMA + GSM)
+link: https://www.ebay.com/itm/Apple-iPhone-11-256GB-Black-Unlocked-A2111-CDMA-GSM/293812086640?epid=11034210179&hash=item446890a770:g:TTcAAOSw3uleNsmC
+full price: $700.00
+
+2020-11-19 17:56:22,576 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 - 64GB - White (Unlocked) A2111 (CDMA + GSM)
+link: https://www.ebay.com/itm/Apple-iPhone-11-64GB-White-Unlocked-A2111-CDMA-GSM/293819215183?epid=10034217463&hash=item4468fd6d4f:g:PYQAAOSwe0BeNsmj
+full price: $700.00
+
+2020-11-19 17:56:22,576 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro- 256GB - Space Gray (AT&T) MW9G2LL/A (CDMA + GSM)
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-256GB-Space-Gray-AT-T-MW9G2LL-A-CDMA-GSM/402514048203?epid=26034221348&hash=item5db7b4f4cb:g:qvAAAOSwOA9flSQv
+full price: $702.00
+
+2020-11-19 17:56:22,576 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 64GB 128GB 256GB Unlocked Smartphone All Colours A2221
+link: https://www.ebay.com/itm/Apple-iPhone-11-64GB-128GB-256GB-Unlocked-Smartphone-All-Colours-A2221/293811777489?epid=22041438977&hash=item44688befd1:g:SeIAAOSwavtfodNy
+full price: $703.73 to $836.76
+
+2020-11-19 17:56:22,576 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 64/128/256GB Black White GSM Unlocked A2223 Real Dual Sim
+link: https://www.ebay.com/itm/Apple-iPhone-11-64-128-256GB-Black-White-GSM-Unlocked-A2223-Real-Dual-Sim/193648592670?epid=26034221296&hash=item2d165b071e:g:1u4AAOSwtVhdywAF
+full price: $749.99
+
+2020-11-19 17:56:22,576 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro 64GB Silver T-Mobile - NEW & SEALED
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-64GB-Silver-T-Mobile-NEW-SEALED/274568051469?hash=item3fed87fb0d:g:RZ0AAOSw0jJfqUlQ
+full price: $785.99
+
+2020-11-19 17:56:22,576 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: Apple iPhone 11 Pro, 64GB, Gold - for T-Mobile (Renewed)
+link: https://www.amazon.com/Apple-iPhone-Pro-64GB-Gold/dp/B085T4YN7Y/ref=sr_1_7?dchild=1&keywords=iPhone+11&qid=1605783309&sr=8-7
+full price: $809.99
+
+2020-11-19 17:56:22,577 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro 256GB Silver (Unlocked) A2160 (CDMA + GSM) Perfect Condition
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-256GB-Silver-Unlocked-A2160-CDMA-GSM-Perfect-Condition/392987841099?epid=23034220816&hash=item5b7fe6924b:g:~3EAAOSw60RfkO8q
+full price: $837.00
+
+2020-11-19 17:56:22,577 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: iPhone 11 Pro max 64 GB Midnight Green (UNLOCKED) MINT CONDITION
+link: https://www.ebay.com/itm/iPhone-11-Pro-max-64-GB-Midnight-Green-UNLOCKED-MINT-CONDITION/254771782453?epid=18034218174&hash=item3b5194e335:g:5mIAAOSwaFlfpyVd
+full price: $850.00
+
+2020-11-19 17:56:22,577 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: NEW Apple iPhone 11 64GB Black - CDMA/GSM Unlocked (Best Offer) - Apple Warranty
+link: https://www.ebay.com/itm/NEW-Apple-iPhone-11-64GB-Black-CDMA-GSM-Unlocked-Best-Offer-Apple-Warranty/293734873095?epid=13034214301&_trkparms=ispr%3D1&hash=item4463f67807:g:wPAAAOSw8gBejK9T&amdata=enc%3AAQAFAAACYBaobrjLl8XobRIiIML1V4Imu%252Fn%252BzU5L90Z278x5ickkvjzWOStkxwnlDuxSI1PVVinfDT1VxjqZnz0UrwYtRNXtKW1OC0TmHy%252FDJidlaZUbtg4wsD%252B0JKPTFh7avG%252Bgu%252BlTFagZY%252FiWzm%252BHuNeUD7UTv5CPSHirvTexL09SnuNWEg6mLImBa93Y3wwRgIV6kyBAmHgcuFfHw3%252FvSG8vARv8Tnau3Pn5xfaxVN6Ha2vsQ9Th%252FzmnVp8ph2IlzRpSyv3LN4QS7zpZiWelXUygQERlgV7twD%252BQk%252FMn0L3xP%252BP4SuWTGjZ73YaPN5R1IwKVlRMiBX48ETX%252BiyHDyEmcns8E1C6o7Bk1IitOhoAP7Y6%252BNZafmkF8gl66SvrlzBvygOKVC3BwVO8SMDkZbUN%252BWZNuhO2PqPCL3Ju5zzv8V%252B1veibXM5qnHaUUvFhC%252F0Tw3cfvASKKqvVKfHAkpoU30KsVKUVMpExHAx1S3o8ZxZrbImp8H4sCC7odcQpaBvxbS5soaOVtwadl7ac4%252B%252FPLmFI6Yvgo4Mn8Tt7P3YbsA7TRV80llVK0OrZz0Rz3w02VTQdckIPOLI%252BINgTHzPqXqz9NBnMvkfer3ru%252BQG9RIPNEV%252Fy%252FdjR66HSOdHN7vaJ2FpH4PrDRON%252BzlpVcSTykhPUkfXup0ZfFs1j8hYmBHHwf9nNf%252F0OSE5N298M%252FTa6jSN8%252FPcbEiWL%252BW9XeAlhif9DlxiMThOAHGX%252FjG6CRXs78hihBX8MQq0xOfee9Jg9UgwuOnRy9shY96KTHCc5iCCY6LKjoYgSaL7ZbqmG7D0Fu%7Ccksum%3A29373487309540bf11394f374576b7dbf4cb28b9c738%7Campid%3APL_CLK%7Cclp%3A2334524
+full price: $850.00
+
+2020-11-19 17:56:22,578 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 PRO MAX 256GB A2218 SILVER WHITE (UNLOCKED) Excellent Condition
+link: https://www.ebay.com/itm/Apple-iPhone-11-PRO-MAX-256GB-A2218-SILVER-WHITE-UNLOCKED-Excellent-Condition/333788314964?epid=15034218456&hash=item4db7557d54:g:~yIAAOSwZq9fruvT
+full price: $851.39
+
+2020-11-19 17:56:22,578 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro - 256GB - Space Grey (Unlocked) A2215 (CDMA + GSM)
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-256GB-Space-Grey-Unlocked-A2215-CDMA-GSM/184537971923?epid=5034225079&hash=item2af751fcd3:g:0wUAAOSwOc5fsBnF
+full price: $864.70
+
+2020-11-19 17:56:22,578 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro 64GB 256GB 512GB Unlocked Smartphone All Colours A2215
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-64GB-256GB-512GB-Unlocked-Smartphone-All-Colours-A2215/254766976248?epid=18041383774&hash=item3b514b8cf8:g:wDQAAOSwETVfodJ~
+full price: $876.67 to $1,062.91
+
+2020-11-19 17:56:22,578 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: NEW Apple iPhone 11 Pro 64GB Midnight Green Verizon Unlocked A2160 CDMA
+link: https://www.ebay.com/itm/NEW-Apple-iPhone-11-Pro-64GB-Midnight-Green-Verizon-Unlocked-A2160-CDMA/184511726633?_trkparms=ispr%3D1&hash=item2af5c18429:g:Lg0AAOSwcuVfmxma&amdata=enc%3AAQAFAAACYBaobrjLl8XobRIiIML1V4Imu%252Fn%252BzU5L90Z278x5ickk8Fd9si%252FIbtWQr%252BhnlRwjDdqy%252BeHiRaCoYOoq3QnoBy9dkG1GYGmlr0cn4CUp4LgUB2nO8KXJ4Xag%252FjfW8zF7okUoHXVrSo3V7vKzm91L9BC0fUZJ6uE0iQpVGppPtQPhQ3dg7wGBpIkR9b6nntgywiqTAso0sSqAqgWdP%252FyzCGBagQupjLbfCaqdBmngghV5AUYeW6bFFlNolHCShC4bouRa%252BI1lzBm94xa7aWaI2mN5%252Bvl13lwvefatTf2naI9R%252F18fVLOxr2x9jBA1WMR654aMoQuvDEE%252BzooRspB4kNaUk1V8WSDOKggV6YZJNdTDb5knHtve7GxAGseTLlYS92twcsKdoaM7RVW%252FaW3dVo7klhGlD1O8weBTOzGeekKcVvwr9IkftX%252BWCk4V7gV6%252FCJgH3RHxD3wZX1IWrWjjrlw1thB2XPlX4s3veCh2FkyrrgteYob1q5NvmIpr4jMdyJRqRx%252BwfTiNCBRP5AXzFggr9UADN1hVIgLMIV6SwmPObFe1%252BK1kYx%252FvQyAhz%252F6vWe6Y3p9LlAASETISkdGKxIyOgP8etASSouzWNXrb%252BuS4qAqXVokCMbXdwJ3i1SPTj%252FJ3T6FPioy2bVFTuTpc10ufdbDBVBwFhBDP2UkvNFbxyKUkBKKjGToObUOYsKj2dZSkrngwOW0mqEAtJg809o32RLTv8aBorTBo8A6pQG37dq%252F8D52UVpzO6lK%252F%252BTW2SmQXcAFflyxVYrI1iMn%252B5LEdCA9bXcFgbMll6w4CDHu%7Ccksum%3A18451172663340bf11394f374576b7dbf4cb28b9c738%7Campid%3APL_CLK%7Cclp%3A2334524
+full price: $899.99
+
+2020-11-19 17:56:22,578 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Original Apple iPhone 11 Pro Max - 64GB - Gold (AT&T) Excellent Condition
+link: https://www.ebay.com/itm/Original-Apple-iPhone-11-Pro-Max-64GB-Gold-AT-T-Excellent-Condition/353272971446?epid=9034209107&hash=item5240b5c0b6:g:e3UAAOSwgPReNsmD
+full price: $900.00
+
+2020-11-19 17:56:22,578 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Brand NEW Apple iPhone 11 Pro Max - 64GB - Gold (AT&T) A2161 (MWFC2LL/A)
+link: https://www.ebay.com/itm/Brand-NEW-Apple-iPhone-11-Pro-Max-64GB-Gold-AT-T-A2161-MWFC2LL-A/303682487648?epid=9034209107&_trkparms=ispr%3D1&hash=item46b4e30560:g:vPUAAOSw81RfWXaa&amdata=enc%3AAQAFAAACYBaobrjLl8XobRIiIML1V4Imu%252Fn%252BzU5L90Z278x5ickkpFtSR0CGv%252Bh98r8Yb9quSxG6PiQMtUbD250EKq0sJlcdwqR8FcHPz2u4vycau4DNQyeWjSdjgY%252FspyGpeXRUsU4cdcJ1UIEkMWmTsK264WppQ5zdY4TWe2G%252BZuYCTd2FBuGXcG2BzKKQvPU3yM0nA8Tmw83HOLTz2sv%252FN%252BBvJKWTPQsDaNnxOyEmSxS0DUXMyHvpQAMLMoPrAylg090onLY2mAWNd4vhmSoGW7Ho%252BhR%252FX2DFVcfQVxxYVgGWg7AULIJhrWa9AYCKewSjEGIljP5SYwsNQzSIEy5tqJyhUzm0S276ym22%252BXeIODyaddM3wHluyzCSk8RQ6ObMaui4iAq7cklE4Fc2rBP2NSJebn%252F05pLVjm%252Fhc0T3isTY7jKL98H0KKsV2z3hJSCpmCaw9koB1fIppmEqPVFu3YHxNcv%252BHMru2kPEhPu9PazHm3L%252BDY9FSuMJRFMgA1ISR57T%252FN8zx1RVCgaQcPT%252F1AhDFQUuSBI7ULPrpnzClWe%252FDbG0%252BVeMYWIzq8ub2WR7qmzSM4cfeJA48aXem9qAmIvQ8H%252BTjEu12q586YRpQAZV0f00ZccoLESCQeLhgsjp%252FGJAS9zpBf0i1sEF0jm5ovqmwU585wazSgx2zwJwC8Nw4f0xiBGncfuMoZcD2e3dmlrM9NTf8hmiIzpDAOG0LHwUhpzhlUqU0Saip1FCwgORfAOFTYtsbkxVAb1wxbP96Z8UnhSoIrqJYQkg3wGq1AOueL8amGAiWF1rj8XXEKIfEpPF%7Ccksum%3A30368248764840bf11394f374576b7dbf4cb28b9c738%7Campid%3APL_CLK%7Cclp%3A2334524
+full price: $919.99
+
+2020-11-19 17:56:22,578 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro - 64GB - Silver (Unlocked) Grade A+
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-64GB-Silver-Unlocked-Grade-A/124422879371?epid=4034210697&hash=item1cf82e788b:g:2QgAAOSwkE9fod4Q
+full price: $929.88
+
+2020-11-19 17:56:22,579 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: iPhone 11 Pro max 256 GB Space Gray (UNLOCKED) MINT CONDITION
+link: https://www.ebay.com/itm/iPhone-11-Pro-max-256-GB-Space-Gray-UNLOCKED-MINT-CONDITION/254771771341?epid=20034216007&hash=item3b5194b7cd:g:lZEAAOSwbLxfpx-o
+full price: $950.00
+
+2020-11-19 17:56:22,579 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: Apple iPhone 11 Pro Max, 64GB, Silver - Fully Unlocked (Renewed)
+link: https://www.amazon.com/Apple-iPhone-Pro-64GB-Silver/dp/B07ZQS31HV/ref=sr_1_17?dchild=1&keywords=iPhone+11&qid=1605783309&sr=8-17
+full price: $954.99
+
+2020-11-19 17:56:22,579 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro Max 64GB 256GB 512GB Unlocked Smartphone All Colours A2218
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-Max-64GB-256GB-512GB-Unlocked-Smartphone-All-Colours-A2218/293811781813?epid=16034689566&hash=item44688c00b5:g:2bwAAOSwsbFfodM1
+full price: $983.09 to $1,142.73
+
+2020-11-19 17:56:22,579 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro - 64GB - Space Gray (Unlocked) Excellent condition
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-64GB-Space-Gray-Unlocked-Excellent-condition/254781098487?epid=6034218747&hash=item3b522309f7:g:ms0AAOSwzHxfs-Xf
+full price: $985.00
+
+2020-11-19 17:56:22,579 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: Motorola Razr 5G | Unlocked | Made for US by Motorola | 8/256GB | 48MP Camera | 2020 | Polished Graphite
+link: https://www.amazon.com/Motorola-Unlocked-Camera-Polished-Graphite/dp/B08F2R2DBR/ref=sr_1_13?dchild=1&keywords=iPhone+11&qid=1605783309&sr=8-13
+full price: $999.99
+
+2020-11-19 17:56:22,579 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 PRO - 64GB MIDNIGHT GREEN (FACTORY UNLOCKED) GSM+CDMA **SEALED**
+link: https://www.ebay.com/itm/Apple-iPhone-11-PRO-64GB-MIDNIGHT-GREEN-FACTORY-UNLOCKED-GSM-CDMA-SEALED/324274482860?epid=4034210668&_trkparms=ispr%3D1&hash=item4b8043eeac:g:-84AAOSw1PNebBGR&amdata=enc%3AAQAFAAACYBaobrjLl8XobRIiIML1V4Imu%252Fn%252BzU5L90Z278x5ickk5v8gVt3hEWLVg%252F253w6XCRSWypWJiBMq%252FjmUGVK%252FlwRmQzW7pZ2TVvo9Oy9MhQWruhmXMaSqvFn4IAvK%252BVPMqQC6l1dEw8Tl45rGz3ELu4Wo6ZzE0vKHuQXUqjHKYQkfJPOs%252B%252B%252B2bHDRBeOrEY601JSGs5sdbQJHcBC6%252F44OzZad4R3WkS9RLDcXuxcMuh0NuGNKv1gbCfsT4EJqdqph%252FGUfQziWuQeBV%252FdL8PDf6VvE%252FnX0FyLcaPS0nXUMWwsZP23hkjEWh2aRuUZLsEREYyYmW8N9Mssux5ZfLQUk4NQx3x98y9skq8B1aYgcwIEOcb%252FIisQHvHxiNcYhYn7%252F6glqzuLOpzvqHVZSvJs7SHj87lEYPfce9%252Bs8ZHIDuZ1Z%252FB4gtZqUI7KcujGmCct%252BNndk3L8vOZGHVuwZwP%252Fv%252BUlzUilZ%252FBrRHZ4NLT3t%252BwlFAh4354FHCTP7vOyKlJnAcgWKMclLv%252BvxODCR1jA7qdex0UUlHPwahRl6kymwkMF3EpnlzxbfESuOPS3tO0AZr0hchPvIUrH8qS3%252FJ%252Bd1MbN8JH7uasKFjm6mJHkOyg6i7w4ympXEc885nyacEDX%252FLJKGHUj8TwRJvgVEZs08ubvNSQsDHE3vzI9p8qZ20%252FHI%252BlVEOm0b483NC5g67iBYyK6s0JKRpb1xfYjIALOi1igYKSDnVhBuWdqMKJh%252BX%252B3YFspmA%252Fta0CHmxqBKoYLuxptgdnA9y6oKIlPRzL0umgOFJfJuTf3yL9zrjNRB5iUL%7Ccksum%3A32427448286040bf11394f374576b7dbf4cb28b9c738%7Campid%3APL_CLK%7Cclp%3A2334524
+full price: $1,049.95
+
+2020-11-19 17:56:22,579 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro - 64GB 256GB 512GB - Unlocked Smartphone Colours GRADEs
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-64GB-256GB-512GB-Unlocked-Smartphone-Colours-GRADEs/303650704011?hash=item46b2fe0a8b:g:V0QAAOSwJ7hfEvTf
+full price: $1,110.80 to $1,476.63
+
+2020-11-19 17:56:22,579 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: BRAND NEW| iPhone 11 Pro Max | Unlocked Verizon ATT Sprint TMobile |64 256 512GB
+link: https://www.ebay.com/itm/BRAND-NEW-iPhone-11-Pro-Max-Unlocked-Verizon-ATT-Sprint-TMobile-64-256-512GB/274260111693?epid=25041284608&hash=item3fdb2d314d:g:eTIAAOSwbDpeXWRV
+full price: $1,129.00 to $1,179.00
+
+2020-11-19 17:56:22,579 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro Max 64GB Unlocked, Midnight Green - Excellent Grade A
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-Max-64GB-Unlocked-Midnight-Green-Excellent-Grade-A/184187023918?epid=5034224996&hash=item2ae266f22e:g:hakAAOSwETteVkTa
+full price: $1,130.74
+
+2020-11-19 17:56:22,579 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro Max - 256GB - Gold (Unlocked) A2161 (CDMA + GSM)
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-Max-256GB-Gold-Unlocked-A2161-CDMA-GSM/402546909552?epid=22034217307&hash=item5db9aa6170:g:PoMAAOSw2d9fpcI8
+full price: $1,150.00
+
+2020-11-19 17:56:22,580 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro Max - 256GB - All colours (AT&T) A2161 (CDMA + GSM)
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-Max-256GB-All-colours-AT-T-A2161-CDMA-GSM/174189181082?epid=14034212822&hash=item288e7bf89a:g:-bEAAOSwNd1eRA8h
+full price: $1,158.00
+
+2020-11-19 17:56:22,580 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: NEW & SEALED Apple iPhone 11 Pro 256GB - Unlocked - Space Grey. Quick delivery
+link: https://www.ebay.com/itm/NEW-SEALED-Apple-iPhone-11-Pro-256GB-Unlocked-Space-Grey-Quick-delivery/224234336580?epid=5034225079&_trkparms=ispr%3D1&hash=item3435687144:g:I4MAAOSwLYBfr8db&amdata=enc%3AAQAFAAACcBaobrjLl8XobRIiIML1V4Imu%252Fn%252BzU5L90Z278x5ickkgCVySCgrNFPU8Iu85TabMJPquSmMgwWU1Yw8CoqbiJXQ8ovJB%252FiajqJUW3LSyaB94ZMI%252FXco9LZuSpQ70UWXT9tRfybeRyplB5Aw4uurgoH1cHYlhPtupVwPhHxsN18fmK%252FeII3q4VJ52TteTvxb6%252B6hhTYksFN5VSU962o4iS6eBX6epS79DuoVoNSntQoGPlnVGKwJA0m%252Fg%252B1e3CFfgK%252F%252FyyYMlpZDL0c0IC0vVOyXSD%252F9kQ9BCsVtt3WU3QfWoPfmUWTlIuSzd24MxnR%252BCQvktsnJSAALxBX8rr6NoSpAg7cwSNQzCOnn%252F0JkinwfpdlK2L7XQbBZ9Om46nqiUtgtlvy11%252BAdOOZamPXhXq1MTFnHuudGvqy%252BmASXDMll5WeHUDPBPQ1zQn7x4cUWW7F0ih%252BMrCsL1EmDxVmY8W84Qrel70Bkt8Zwl4XlrELnl8VHU%252BvKZNSBgakCZDFD0pAYxm9eiTK8pDWdtWljyjcWJy5QqWBHmSJe%252FcEhTtHjtWrZf8DXCrXTu0B081jansBB2fjP8zZsZ8Slp7%252FCY8H%252B9zWa5QhaIIa14qlo4gEWwrOLjckcqF4IbWw%252FmAgMeZj%252BylMzvQ3bjBweA%252F51TMFJmjbkrtuAP5ZQT3Yy%252FhEqHhPIKOSlq%252FcIbGWSQmP6oZ2fZ5rdEg8vzIJyTYuOoa%252Bz2MdpnAJUBCHSf9QPjKBwMJZFxRbUy6iFUKWQIwJ%252BaRVXKC4yNEYznowgD1DfH8KMSCcuKOr6X65uRN984td5zJnBu7jh2%252F%252ByRVDNdhiS3g%253D%253D%7Ccksum%3A22423433658040bf11394f374576b7dbf4cb28b9c738%7Campid%3APL_CLK%7Cclp%3A2334524
+full price: $1,164.00
+
+2020-11-19 17:56:22,580 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro 64GB Unlocked, Space Grey - Full Gift Bundle, Pristine A+
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-64GB-Unlocked-Space-Grey-Full-Gift-Bundle-Pristine-A/202825251345?epid=8034218244&hash=item2f3953ba11:g:7m8AAOSwpexfKdQH
+full price: $1,170.65
+
+2020-11-19 17:56:22,580 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro 64GB Unlocked iOS Smartphone Silver, Gift Bundle Pristine A+
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-64GB-Unlocked-iOS-Smartphone-Silver-Gift-Bundle-Pristine-A/184297514529?epid=4034210697&hash=item2ae8fce621:g:mYgAAOSwO3pewvvq
+full price: $1,197.26
+
+2020-11-19 17:56:22,580 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro 256GB Unlocked iOS Smartphone, Space Grey - Pristine A+
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-256GB-Unlocked-iOS-Smartphone-Space-Grey-Pristine-A/184248109266?epid=5034225079&hash=item2ae60b08d2:g:90gAAOSwjLxekNG1
+full price: $1,235.84
+
+2020-11-19 17:56:22,580 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro 64/256/512GB Green Space Gray Silver Gold GSM Unlocked
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-64-256-512GB-Green-Space-Gray-Silver-Gold-GSM-Unlocked/193381381100?epid=2305260636&hash=item2d066db3ec:g:ONoAAOSw7FFeLyp2
+full price: $1,300.00
+
+2020-11-19 17:56:22,580 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro 64/256/512GB Green Gray Silver Real Dual GSM Unlocked A2217
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-64-256-512GB-Green-Gray-Silver-Real-Dual-GSM-Unlocked-A2217/193624460297?hash=item2d14eacc09:g:ONoAAOSw7FFeLyp2
+full price: $1,300.00
+
+2020-11-19 17:56:22,580 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro Max 64/256/512GB Green Space Gray Silver Gold GSM Unlocked
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-Max-64-256-512GB-Green-Space-Gray-Silver-Gold-GSM-Unlocked/193320142645?epid=28041200458&hash=item2d02c74735:g:ONoAAOSw7FFeLyp2
+full price: $1,400.00
+
+2020-11-19 17:56:22,582 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro - Fortnite - 256GB -
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-Fortnite-256GB/174402554192?hash=item289b33c950:g:PecAAOSwTntfPsQn
+full price: $10,000.00
+
+2020-11-19 17:56:22,582 INFO  com.amazon.ebay.search.Search_01_Sort - =================================List phone is no price ==========================================
+2020-11-19 17:56:22,582 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: OnePlus 8 Pro Onyx Black, 5G Unlocked Android Smartphone U.S Version, 12GB RAM+256GB Storage, 120Hz Fluid Display,Quad Camera, Wireless Charge, with Alexa Built-in
+link: null
+full price: null
+
+2020-11-19 17:56:22,582 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: Apple iPhone XS Max, 64GB, Silver - Fully Unlocked (Renewed)
+link: https://www.amazon.com/Apple-iPhone-Max-Fully-Unlocked/dp/B07KFMSQKX/ref=sr_1_2?dchild=1&keywords=iPhone+11&qid=1605783309&sr=8-2
+full price: null
+
+2020-11-19 17:56:22,582 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: New Apple iPhone 12 (64GB, Blue) [Locked] + Carrier Subscription
+link: https://www.amazon.com/Apple-iPhone-Locked-Carrier-Subscription/dp/B08L5P7DYY/ref=sr_1_3?dchild=1&keywords=iPhone+11&qid=1605783309&sr=8-3
+full price: null
+
+2020-11-19 17:56:22,583 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: Apple iPhone 11 Pro [64GB, Gold] + Carrier Subscription [Cricket Wireless]
+link: https://www.amazon.com/Apple-Carrier-Subscription-Cricket-Wireless/dp/B084GSXQTC/ref=sr_1_4?dchild=1&keywords=iPhone+11&qid=1605783309&sr=8-4
+full price: null
+
+2020-11-19 17:56:22,583 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: Apple iPhone 11 (128GB) - Black (Verizon)
+link: https://www.amazon.com/Apple-iPhone-Unlocked-Verizon-Sprint/dp/B07Y3LNH5Q/ref=sr_1_5?dchild=1&keywords=iPhone+11&qid=1605783309&sr=8-5
+full price: null
+
+2020-11-19 17:56:22,583 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: New Apple iPhone 12 Pro (256GB, Gold) [Locked] + Carrier Subscription
+link: https://www.amazon.com/Apple-iPhone-Locked-Carrier-Subscription/dp/B08L5QG5HG/ref=sr_1_6?dchild=1&keywords=iPhone+11&qid=1605783309&sr=8-6
+full price: null
+
+2020-11-19 17:56:22,583 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: Simple Mobile Prepaid - Apple iPhone XS Max (64GB) - Silver
+link: https://www.amazon.com/Apple-iPhone-XS-Max-64GB/dp/B07HCZYW8W/ref=sr_1_8?dchild=1&keywords=iPhone+11&qid=1605783309&sr=8-8
+full price: null
+
+2020-11-19 17:56:22,583 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: Apple iPhone XR [64GB, (PRODUCT)RED] + Carrier Subscription [Cricket Wireless]
+link: https://www.amazon.com/Apple-iPhone-XR-64GB-PRODUCT/dp/B07VSWLY55/ref=sr_1_9?dchild=1&keywords=iPhone+11&qid=1605783309&sr=8-9
+full price: null
+
+2020-11-19 17:56:22,583 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: Apple iPhone XS [64GB, Space Gray] + Carrier Subscription [Cricket Wireless]
+link: https://www.amazon.com/Apple-iPhone-XS-64GB-Space/dp/B07VNNRWKC/ref=sr_1_10?dchild=1&keywords=iPhone+11&qid=1605783309&sr=8-10
+full price: null
+
+2020-11-19 17:56:22,584 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: Apple iPhone 8 Plus [64GB, Silver] + Carrier Subscription [Cricket Wireless]
+link: https://www.amazon.com/Apple-iPhone-Plus-64GB-Silver/dp/B07VNNR5XY/ref=sr_1_14?dchild=1&keywords=iPhone+11&qid=1605783309&sr=8-14
+full price: null
+
+2020-11-19 17:56:22,584 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: Apple iPhone 11 [64GB, Purple] + Carrier Subscription [Cricket Wireless]
+link: https://www.amazon.com/Apple-Carrier-Subscription-Cricket-Wireless/dp/B084GSMNRD/ref=sr_1_15?dchild=1&keywords=iPhone+11&qid=1605783309&sr=8-15
+full price: null
+
+2020-11-19 17:56:22,585 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: Apple iPhone 11 Pro, 512GB, Space Gray - Fully Unlocked (Renewed)
+link: https://www.amazon.com/Apple-iPhone-512GB-Space-Gray/dp/B07ZQSQXCW/ref=sr_1_16?dchild=1&keywords=iPhone+11&qid=1605783309&sr=8-16
+full price: null
+
+2020-11-19 17:56:22,585 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Amazon
+Phone name: Apple iPhone XR, 64GB, Red - For T-Mobile (Renewed)
+link: https://www.amazon.com/Apple-iPhone-XR-64GB-Red/dp/B07TJ3GL6S/ref=sr_1_18?dchild=1&keywords=iPhone+11&qid=1605783309&sr=8-18
+full price: null
+
+2020-11-19 17:56:22,585 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: NEW LISTINGIphone 11 Pro max 256 gb Green
+link: null
+full price: null
+
+2020-11-19 17:56:22,585 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: NEW LISTINGApple iPhone 11 Pro-256GB - Space Gray (Unlocked)
+link: null
+full price: null
+
+2020-11-19 17:56:22,585 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro - 64GB - Midnight Green (Unlocked) A2160 (CDMA + GSM)
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-64GB-Midnight-Green-Unlocked-A2160-CDMA-GSM/124439533894?epid=28034216905&hash=item1cf92c9946:g:ULYAAOSwubRfr~IN
+full price: null
+
+2020-11-19 17:56:22,585 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: NEW LISTINGBRAND NEW SEALED Apple iPhone 11 - 128GB - WHITE - SIMFREE FAST DELIVERY A2221
+link: null
+full price: null
+
+2020-11-19 17:56:22,585 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro 256GB SpaceGray
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-256GB-SpaceGray/203160918303?epid=24034210905&_trkparms=ispr%3D1&hash=item2f4d55991f:g:pTUAAOSwpcFfnM0W&amdata=enc%3AAQAFAAACYBaobrjLl8XobRIiIML1V4Imu%252Fn%252BzU5L90Z278x5ickkrmmq8hWevtuKE7%252F%252BLfVXtkTFglF7i9RrpY5MxGQ1%252FzXmcQXIXHq6n6WSPYLOnnzZjaUCyUiLYWzHRUKEwTij%252B%252FScTK02b%252BX3kMZkq6PD9iOotPuaGGJsGFSCCq7dkgYCTxRr5TIkWx2loLM97wuz%252FlVuqPna4LCCGTjAnFvv0ULIZFncyPWt3DDcm0jhrXKdZfCPK57eSPFgJSd3ZKv3Icm7kHIKCGucxB6KQVvMud3iuOowtxqIY8nmmqOAj60O27K4Gvlwtdh2W15Do5bln8iFabNq2NnIfSWkNrvK3XAFYRXUtjMTmgA1FV2mzDZMsmYTZmszj3YMnZsvxoNmqiUcf1MFLCEwuSpxZf9FklWDRh1M%252B3jmizbe8G86fXABOX91mjI70z3mzlQL%252FYyqO49IW5D%252FxTWQ5bapx0xGxfLq0hVqdLLps2FjtlgROh5hXNIRcbfo%252BtGkAW5t6unEVh3rahwprE5RuK4m0AkN1G%252BEgRGX0BYp4w5MMr5yjBePr651Js5%252BTE4tZ9qhIG0YpD%252FXTuEcfFggN2w2a2Xzhoa9UAC3gvrPcclnqBY1IIsy%252FafyLrpJ7yaYV0HePZWJGEwMF%252BFrC3%252FMPUE%252FOP95xp0HgPOVp%252BS0JlpmNMspzzYt2zW92V62XRmygRlObDbU5rPfIKmZ%252BKyfh%252F4f%252FRGOUuUIWnj%252Fi2mQyXeySnoZQCHt%252FycdMLk0Urh0e%252FF9KAQb%252FBBAPGfZDisFfgDXwzx0%252F3Bq2mKIiUedRMHehXeopsvF%7Ccksum%3A20316091830340bf11394f374576b7dbf4cb28b9c738%7Campid%3APL_CLK%7Cclp%3A2334524
+full price: null
+
+2020-11-19 17:56:22,585 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: NEW LISTINGApple iPhone 11 Pro Max - 512GB - Midnight Green (Unlocked) A2161 (CDMA + GSM)
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-Max-512GB-Midnight-Green-Unlocked-A2161-CDMA-GSM/224240281582?epid=9034209121&hash=item3435c327ee:g:P5oAAOSwrYJftiHK
+full price: null
+
+2020-11-19 17:56:22,586 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 Pro - 64GB - Midnight Green (Sprint) A2160 (CDMA + GSM)
+link: https://www.ebay.com/itm/Apple-iPhone-11-Pro-64GB-Midnight-Green-Sprint-A2160-CDMA-GSM/174499651513?epid=13037285015&hash=item28a0fd5fb9:g:4L0AAOSweNpfnIor
+full price: null
+
+2020-11-19 17:56:22,587 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Bellperre Unique iPhone 11 Pro 256gb Luxury Crocodile Mobile Phone Vertu
+link: null
+full price: null
+
+2020-11-19 17:56:22,587 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 WITH FORTNITE App INSTALLED 64GB Red UNLOCKED With NWT BACKPACK
+link: null
+full price: null
+
+2020-11-19 17:56:22,588 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 ProMax- 64GB - Midnight Green (Unlocked) A2160 (CDMA + GSM)
+link: https://www.ebay.com/itm/Apple-iPhone-11-ProMax-64GB-Midnight-Green-Unlocked-A2160-CDMA-GSM/402533218032?hash=item5db8d976f0:g:bT0AAOSwaYVfot6C
+full price: null
+
+2020-11-19 17:56:22,589 INFO  com.amazon.ebay.search.Search_01_Sort - Website name: Ebay
+Phone name: Apple iPhone 11 128GB Yellow AT&T Smartphone 128gb
+link: null
+full price: null
+

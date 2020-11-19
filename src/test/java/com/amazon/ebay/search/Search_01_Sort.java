@@ -1,9 +1,9 @@
 package com.amazon.ebay.search;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -25,6 +25,7 @@ public class Search_01_Sort extends AbstractTest{
 	private String amazonUrl;
 	private List<Phone> ebayPhones;
 	private List<Phone> amazonPhones;
+	private List<Phone> bothPhones;
 	
 
 	@BeforeClass
@@ -41,10 +42,9 @@ public class Search_01_Sort extends AbstractTest{
 	public void TC_01_eBay_Search() {
 		ebaySearchPage.fillKeySearch(keySearch);
 		ebaySearchPage.submitSearch();
-//		ebaySearchPage.verifySearchItemDisplayed();
-//		Assert.assertTrue(ebaySearchPage.isNameSortedAscending());
-		ebayPhones = ebaySearchPage.getAllItemInPage();
-//		Assert.assertTrue(ebaySearchPage.isNameIncludeKeySearch(keySearch));
+		ebaySearchPage.changeDollarCurrency();
+		ebayPhones = ebaySearchPage.getAllItemInPage(log);
+		verifyTrue(ebaySearchPage.isNameIncludeKeySearch(keySearch, ebayPhones));
 		
 	}
 	
@@ -54,12 +54,46 @@ public class Search_01_Sort extends AbstractTest{
 		amazonSearchPage = new SearchPageObject(driver);
 		amazonSearchPage.fillKeySearch(keySearch);
 		amazonSearchPage.submitSearch();
-		amazonPhones = amazonSearchPage.getAllItemInPage();
-//		Assert.assertTrue(amazonSearchPage.isNameIncludeKeySearch(keySearch));
+		amazonPhones = amazonSearchPage.getAllItemInPage(log);
+		verifyTrue(amazonSearchPage.isNameIncludeKeySearch(keySearch, amazonPhones));
+		List<Phone> noPricePhone1 = new ArrayList<Phone>();
+		List<Phone> noPricePhone2 = new ArrayList<Phone>();
+		
+		for (Phone phone : amazonPhones) {
+			if(phone.getWholePrice() == null || phone.getOriginPrice() == null) {
+				noPricePhone1.add(phone);
+			}
+		}
+
+		amazonPhones.removeAll(noPricePhone1);
+		System.out.println("==============" + ebayPhones.size());
+		for (Phone phone : ebayPhones) {
+			if(phone.getWholePrice() == null || phone.getOriginPrice() == null) {
+				noPricePhone2.add(phone);
+			}
+		}
+
+		ebayPhones.removeAll(noPricePhone2);
+		noPricePhone1.addAll(noPricePhone2);
+		
+		bothPhones = amazonPhones;
+		bothPhones.addAll(ebayPhones);
+		bothPhones = amazonSearchPage.convertPriceSortedAscending(bothPhones);
+		log.info("=================================List phone is sorted==========================================");
+		for (Phone phone : bothPhones) {
+			System.out.println(phone.toString());
+			log.info(phone.toString());
+		}
+		
+		log.info("=================================List phone is no price ==========================================");
+		for (Phone phone : noPricePhone1) {
+			System.out.println(phone.toString());
+			log.info(phone.toString());
+		}
 	} 
 
 	@AfterClass(alwaysRun=true)
 	public void afterClass() {
-		closeBrowserAndDriver(driver);
+//		closeBrowserAndDriver(driver);
 	}
 }

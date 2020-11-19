@@ -233,7 +233,19 @@ public abstract class AbstractPage {
 			element.click();
 		}
 	}
+	public void uncheckTheCheckBoxByJS(WebDriver driver, String locator) {
+		element = findElementByXpath(driver, locator);
+		System.out.println("=======element selected=============" + element.isSelected());
+		if(element.isSelected()) {
+			clickToElementByJS(driver, element);
+		}
+	}
 	
+	public void clickToElementByJS(WebDriver driver, WebElement element) {
+		jsExecutor = (JavascriptExecutor) driver;
+		jsExecutor.executeScript("arguments[0].click();", element);
+	}
+
 	public Boolean isElementDisplayed(WebDriver driver, String locator) {
 		return findElementByXpath(driver, locator).isDisplayed();
 	}
@@ -435,6 +447,14 @@ public abstract class AbstractPage {
 		}
 		overrideGlobalTimeout(driver, GlobalConstants.LONG_TIMEOUT);
 		return result;
+	}
+	
+	public boolean popupIsDisplayed(WebDriver driver, String locator) {
+		try {
+			return driver.findElement(byXpath(locator)).isDisplayed();
+		} catch (NoSuchElementException e) {
+			return false;
+		}
 	}
 	
 	public boolean isElementUnDisplayed(WebDriver driver, String locator) {
@@ -655,9 +675,21 @@ public abstract class AbstractPage {
 		return sortedList;
 	}
 	
-	public boolean isNameIncludeKeySearch(String keySearch) {
-		// TODO Auto-generated method stub
-		return false;
+	public boolean isNameIncludeKeySearch(String keySearch, List<Phone> phoneList) {
+		String[] keySearchList = keySearch.split(" ");
+		Boolean result = false;
+		for (Phone aPhone : phoneList) {
+			for (String key : keySearchList) {
+				if(!aPhone.getName().contains(key)) {
+					result = false;
+				}
+			}
+			if(!result) {
+				System.out.println("===========no include key Search with name phone: " + aPhone.getName());
+				return false;
+			}
+		}
+		return result;
 	}
 	
 	public Date covertStringToDate(String dateString) {
@@ -671,11 +703,12 @@ public abstract class AbstractPage {
 		return null;
 	}
 
-	public static void convertPriceSortedAscending(List<Phone> phoneList){
+	public List<Phone> convertPriceSortedAscending(List<Phone> phoneList){
 		Collections.sort(phoneList, new SortPhone());
 		for(Phone emp : phoneList){
 			System.out.println(emp);
 		}
+		return phoneList;
     }
 	
 	int longTimeout = 30;
