@@ -10,7 +10,7 @@
 - Business:
   > Open eBay page, change currency from VND to $, get all item of current page and add to list
   
-  > verify result search: if all item of current page include one of key in keyword search => return true 
+  > Verify result search: if all item of current page include one of key in keyword search => return true 
   > Then: Open Amazon page, get all item of current page and add to other list
   > verify result search: if all item of current page include one of key in keyword search => return true 
   
@@ -21,9 +21,9 @@
   > Handle price of search item to compare and sort list
   
 - ToDo: 
-  > improve perfomance of project
+  > Improve perfomance of project
   
-  > handle more special case 
+  > Handle more special case 
   
 - Run:
 Run by testNG plugin in IDE (eclipse/intellij)
