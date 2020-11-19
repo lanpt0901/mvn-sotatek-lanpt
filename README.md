@@ -27,10 +27,5 @@
   
 - Run:
 Run by testNG plugin in IDE (eclipse/intellij)
-Run by maven test
-Run by command line: 
-  Go to target folder of project and run command line on cmd
-  java -jar mvn-sotatek-lanpt.jar 
-Run by bat file on target folder
 
   
