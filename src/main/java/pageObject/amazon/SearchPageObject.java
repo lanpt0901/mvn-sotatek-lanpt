@@ -52,8 +52,6 @@ public class SearchPageObject extends AbstractPage{
 			Phone aPhone = new Phone();
 			aPhone.setName(name);
 
-			System.out.println("==========name: ===========" + name);
-
 			overrideGlobalTimeout(driver, GlobalConstants.SHORT_TIMEOUT);
 			
 			try {
@@ -63,7 +61,6 @@ public class SearchPageObject extends AbstractPage{
 			} catch (NoSuchElementException e) {
 				System.out.println("================Amazon: Name has special character");
 				String innerHTML = webElement.getAttribute("innerHTML");
-				System.out.println("==========innerHTML =========" + innerHTML);
 				
 				if(innerHTML.contains("&nbsp;")) {
 					String[] innerHTMLArray = innerHTML.split("&nbsp;");
@@ -85,7 +82,6 @@ public class SearchPageObject extends AbstractPage{
 				if(wholePrice != null) {
 					aPhone.setWholePrice(Integer.decode(wholePrice.getText()));
 					price = "$" + wholePrice.getText();
-					System.out.println("==========wholePrice =========" + wholePrice.getText());
 				}
 				
 				if(fractionPrice != null) {

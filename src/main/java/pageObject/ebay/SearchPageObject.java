@@ -50,7 +50,6 @@ public class SearchPageObject extends AbstractPage{
 			String name = webElement.getText();
 			Phone aPhone = new Phone();
 			aPhone.setName(name);
-			System.out.println("==========name: =========" + name);
 
 			overrideGlobalTimeout(driver, GlobalConstants.SHORT_TIMEOUT);
 			
@@ -59,12 +58,10 @@ public class SearchPageObject extends AbstractPage{
 				wholePrice = findElementByXpath(driver, SearchPageUI.PRICE_WHOLE_ITEM, name);
 				
 				price = wholePrice.getText();
-				System.out.println("==========wholePrice =========" + price);
 				
 			} catch (NoSuchElementException e) {
 				System.out.println("=====================EBay: Name has special character");
 				String innerHTML = webElement.getAttribute("innerHTML");
-				System.out.println("==========innerHTML =========" + innerHTML);
 				if(innerHTML.contains("&nbsp;")) {
 					
 					if(innerHTML.contains("</span>")) {
@@ -96,7 +93,6 @@ public class SearchPageObject extends AbstractPage{
 					//xu ly price
 					aPhone.setWholePrice(Integer.decode(priceI[0]));
 					if(priceI[1].contains("to")) {
-						System.out.println("------to price-----" + priceI[1].split(" to")[0]);
 						aPhone.setFractionPrice(Integer.decode(priceI[1].split(" to")[0]));
 					} else {
 						aPhone.setFractionPrice(Integer.decode(priceI[1]));

@@ -1,5 +1,6 @@
 package commons;
 
+import java.io.File;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -12,6 +13,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.BeforeSuite;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -19,7 +21,6 @@ public abstract class AbstractTest {
 
 	private WebDriver driver;
 
-//	public static Log log = LogFactory.getLog(MethodListener.class);
 	protected final Log log;
 	public AbstractTest() {
 		log = LogFactory.getLog(getClass());
@@ -30,11 +31,9 @@ public abstract class AbstractTest {
 		if (browserName.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
 		} else if (browserName.equalsIgnoreCase("chrome")) {
-//			System.setProperty("webdriver.chrome.driver", ".\\browserDriver\\chromedriver.exe");
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		} else if (browserName.equalsIgnoreCase("edge")) {
-//			System.setProperty("webdriver.edge.driver", ".\\browserDriver\\msedgedriver.exe");
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 		} else if (browserName.equalsIgnoreCase("coccoc")) {
@@ -158,4 +157,5 @@ public abstract class AbstractTest {
 		System.out.println("===========Random =============" + rand_int1);
 	    return rand_int1;
 	}
+
 }

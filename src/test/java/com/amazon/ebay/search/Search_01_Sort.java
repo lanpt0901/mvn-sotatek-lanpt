@@ -45,7 +45,6 @@ public class Search_01_Sort extends AbstractTest{
 		ebaySearchPage.changeDollarCurrency();
 		ebayPhones = ebaySearchPage.getAllItemInPage(log);
 		verifyTrue(ebaySearchPage.isNameIncludeKeySearch(keySearch, ebayPhones));
-		
 	}
 	
 	@Test
@@ -66,7 +65,6 @@ public class Search_01_Sort extends AbstractTest{
 		}
 
 		amazonPhones.removeAll(noPricePhone1);
-		System.out.println("==============" + ebayPhones.size());
 		for (Phone phone : ebayPhones) {
 			if(phone.getWholePrice() == null || phone.getOriginPrice() == null) {
 				noPricePhone2.add(phone);
@@ -94,6 +92,6 @@ public class Search_01_Sort extends AbstractTest{
 
 	@AfterClass(alwaysRun=true)
 	public void afterClass() {
-//		closeBrowserAndDriver(driver);
+		closeBrowserAndDriver(driver);
 	}
 }

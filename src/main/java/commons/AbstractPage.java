@@ -235,7 +235,6 @@ public abstract class AbstractPage {
 	}
 	public void uncheckTheCheckBoxByJS(WebDriver driver, String locator) {
 		element = findElementByXpath(driver, locator);
-		System.out.println("=======element selected=============" + element.isSelected());
 		if(element.isSelected()) {
 			clickToElementByJS(driver, element);
 		}
@@ -680,7 +679,7 @@ public abstract class AbstractPage {
 		Boolean result = false;
 		for (Phone aPhone : phoneList) {
 			for (String key : keySearchList) {
-				if(!aPhone.getName().contains(key)) {
+				if(!aPhone.getName().toLowerCase().contains(key.toLowerCase())) {
 					result = false;
 				}
 			}
